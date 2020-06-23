@@ -27,9 +27,7 @@ let header = `
 
 let footer = `
     <footer>
-      ${`<p>© ${new Date().getFullYear()} ${
-        config.metaAthorName
-      }, Find the code on <a href="github.com/kartiknair/blog">GitHub</a></p>`}
+      ${`<p>© ${new Date().getFullYear()}, JekyllJS</a></p>`}
     </footer>
   </body>
 </html>
@@ -42,7 +40,7 @@ ${head}
     <div class="post-content">
       <img src="${data.attributes.thumbnail}" />
       <h1>${data.attributes.title}</h1>
-      <p>dodane przez ${data.attributes.author}, ${data.attributes.date}</p>
+      <small>${new Date(data.attributes.date).toDateString()}, in ${data.attributes.category}</small>
       <hr />
       ${data.body}
     </div>

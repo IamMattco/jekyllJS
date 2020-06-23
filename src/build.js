@@ -9,7 +9,7 @@ const posts = fs
   .map(post => post.slice(0, -3))
   .map(post => postMethods.createPost(post))
   .sort(function(a, b) {
-    return b.attributes.date - a.attributes.date;
+    return new Date(b.attributes.date) - new Date(a.attributes.date);
   });
 
   const pages = fs
