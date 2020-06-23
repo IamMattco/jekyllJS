@@ -1,9 +1,10 @@
 ---
 title: Dlaczego stworzyłem ten blog
 author: Mateusz
-date: "03/06/2020"
+date: 03/06/2020
 description: Powody dla których zacząłem blogować.
 thumbnail: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80"
+category: 'General'
 ---
 # Witaj na moim blogu
 Witaj, nazywam się Mateusz i jestem programistą z ponad 10 letnim stażem. Dobrze czuję się pisząc zarówno front aplikacji jak i backend, do którego używam PHP lub Ruby.
