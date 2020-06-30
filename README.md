@@ -6,6 +6,10 @@ Lightweight Static Site Generator created with JS
 Clone repository and install dependencies.
 
 ```bash
+git clone git@github.com:IamMattco/jekyllJS.git
+```
+
+```bash
 npm install
 ```
 
